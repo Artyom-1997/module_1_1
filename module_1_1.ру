@@ -1,0 +1,29 @@
+# Задача 1: "Арифметика"
+# 1st program
+result = (9 ** 0.5) * 5
+print(result)
+
+# Задача 2: "Логика"
+# 2nd program
+result = (9.99 > 9.98) and (1000 != 1000.1)
+print(result)
+
+# Задача 3: "Школьная загадка"
+# 3rd program
+no_priority = 2 * 2 + 2
+with_priority = 2 * (2 + 2)
+
+print(no_priority)
+print(with_priority)
+
+comparison_result = no_priority == with_priority
+print(comparison_result)
+
+# Задача 4: "Первый после точки"
+# 4th program
+string_number = '123.456'
+decimal_number = float(string_number)  # Преобразовать строку в дробное число
+shifted_number = decimal_number * 10   # Умножение на 10
+
+first_digit_after_decimal = int(shifted_number) % 10  # Получение первой цифры после запятой
+print(first_digit_after_decimal)
